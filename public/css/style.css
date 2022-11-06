@@ -31,7 +31,7 @@ body {
   display: grid;
   place-items: center;
   padding: 2rem;
-  font-family: var(--font-family);
+  font-family: var(--font-family) !important;
   color: var(--dark-color);
   background: var(--bg-gradient);
 }
@@ -58,7 +58,7 @@ strong {
   display: flex;
   align-items: center;
   background: rgba(255, 255, 255, 0.375);
-  box-shadow: 0 0.75rem 2rem 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 2rem 0 rgba(0, 0, 0, 0.1);
   border-radius: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
@@ -126,7 +126,7 @@ strong {
   color: var(--dark-color);
   border: 2px solid var(--dark-color);
   border-width: 2px;
-  margin-right: 0.75rem;
+  margin-right: 0.5rem;
 }
 
 .overlay__btn-emoji {
@@ -190,7 +190,7 @@ a {
 
   .overlay__btn {
     width: 100%;
-    font-size: 0.75rem;
+    font-size: 0.5rem;
     margin-right: 0;
   }
 
