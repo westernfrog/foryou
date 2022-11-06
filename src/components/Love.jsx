@@ -34,7 +34,10 @@ export default function Love() {
               class="overlay__btn overlay__btn--colors"
               onClick={handleChange}
             >
-              <span className="fs-6">Hearts ❤️ {hearts}</span>
+              <span className="fs-6">
+                Hearts ❤️
+                <span className="text-gradient"> {hearts} </span>
+              </span>
             </button>
           </div>
         </div>
