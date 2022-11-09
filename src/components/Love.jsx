@@ -23,7 +23,7 @@ export default function Love() {
             <button class="overlay__btn overlay__btn--transparent">
               <a
                 className="text-decoration-none text-black fs-6"
-                href="https://youtube.com/shorts/USGZWKLkUQM?feature=share"
+                href="https://youtube.com/shorts/pErEEoLkcxk?feature=share"
                 target="_blank"
                 rel="noreferrer"
               >
